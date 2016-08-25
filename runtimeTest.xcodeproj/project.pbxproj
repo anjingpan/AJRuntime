@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04DA35BB1D6ED85A00A793C8 /* idol.json in Resources */ = {isa = PBXBuildFile; fileRef = 04DA35BA1D6ED85A00A793C8 /* idol.json */; };
 		04DA35BE1D6EDC6C00A793C8 /* family.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA35BD1D6EDC6C00A793C8 /* family.m */; };
+		04DA35C21D6F083E00A793C8 /* class.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 04DA35C11D6F083E00A793C8 /* class.pdf */; };
 		04E848161D6C21DE0079EF17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E848151D6C21DE0079EF17 /* main.m */; };
 		04E848191D6C21DE0079EF17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E848181D6C21DE0079EF17 /* AppDelegate.m */; };
 		04E8481C1D6C21DE0079EF17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E8481B1D6C21DE0079EF17 /* ViewController.m */; };
@@ -42,6 +43,7 @@
 		04DA35BA1D6ED85A00A793C8 /* idol.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = idol.json; sourceTree = "<group>"; };
 		04DA35BC1D6EDC6C00A793C8 /* family.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = family.h; sourceTree = "<group>"; };
 		04DA35BD1D6EDC6C00A793C8 /* family.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = family.m; sourceTree = "<group>"; };
+		04DA35C11D6F083E00A793C8 /* class.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = class.pdf; path = ../../../class.pdf; sourceTree = "<group>"; };
 		04E848111D6C21DD0079EF17 /* runtimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runtimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E848151D6C21DE0079EF17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E848171D6C21DE0079EF17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		04E848141D6C21DE0079EF17 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04DA35C11D6F083E00A793C8 /* class.pdf */,
 				04E848151D6C21DE0079EF17 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -263,6 +266,7 @@
 			files = (
 				04E848241D6C21DE0079EF17 /* LaunchScreen.storyboard in Resources */,
 				04DA35BB1D6ED85A00A793C8 /* idol.json in Resources */,
+				04DA35C21D6F083E00A793C8 /* class.pdf in Resources */,
 				04E848211D6C21DE0079EF17 /* Assets.xcassets in Resources */,
 				04E8481F1D6C21DE0079EF17 /* Main.storyboard in Resources */,
 			);
