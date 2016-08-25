@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04DA35BB1D6ED85A00A793C8 /* idol.json in Resources */ = {isa = PBXBuildFile; fileRef = 04DA35BA1D6ED85A00A793C8 /* idol.json */; };
+		04DA35BE1D6EDC6C00A793C8 /* family.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DA35BD1D6EDC6C00A793C8 /* family.m */; };
 		04E848161D6C21DE0079EF17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E848151D6C21DE0079EF17 /* main.m */; };
 		04E848191D6C21DE0079EF17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E848181D6C21DE0079EF17 /* AppDelegate.m */; };
 		04E8481C1D6C21DE0079EF17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E8481B1D6C21DE0079EF17 /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		04E848241D6C21DE0079EF17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E848221D6C21DE0079EF17 /* LaunchScreen.storyboard */; };
 		04E8482F1D6C21DE0079EF17 /* runtimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E8482E1D6C21DE0079EF17 /* runtimeTestTests.m */; };
 		04E8483A1D6C21DE0079EF17 /* runtimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E848391D6C21DE0079EF17 /* runtimeTestUITests.m */; };
+		04E848491D6C2A010079EF17 /* idol.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E848481D6C2A010079EF17 /* idol.m */; };
+		04E8484C1D6C3B980079EF17 /* idol+height.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E8484B1D6C3B980079EF17 /* idol+height.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04DA35BA1D6ED85A00A793C8 /* idol.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = idol.json; sourceTree = "<group>"; };
+		04DA35BC1D6EDC6C00A793C8 /* family.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = family.h; sourceTree = "<group>"; };
+		04DA35BD1D6EDC6C00A793C8 /* family.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = family.m; sourceTree = "<group>"; };
 		04E848111D6C21DD0079EF17 /* runtimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = runtimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E848151D6C21DE0079EF17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04E848171D6C21DE0079EF17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,10 @@
 		04E848351D6C21DE0079EF17 /* runtimeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E848391D6C21DE0079EF17 /* runtimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeTestUITests.m; sourceTree = "<group>"; };
 		04E8483B1D6C21DE0079EF17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E848471D6C2A010079EF17 /* idol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idol.h; sourceTree = "<group>"; };
+		04E848481D6C2A010079EF17 /* idol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = idol.m; sourceTree = "<group>"; };
+		04E8484A1D6C3B980079EF17 /* idol+height.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "idol+height.h"; sourceTree = "<group>"; };
+		04E8484B1D6C3B980079EF17 /* idol+height.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "idol+height.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +116,13 @@
 				04E848181D6C21DE0079EF17 /* AppDelegate.m */,
 				04E8481A1D6C21DE0079EF17 /* ViewController.h */,
 				04E8481B1D6C21DE0079EF17 /* ViewController.m */,
+				04DA35BA1D6ED85A00A793C8 /* idol.json */,
+				04E8484A1D6C3B980079EF17 /* idol+height.h */,
+				04E8484B1D6C3B980079EF17 /* idol+height.m */,
+				04E848471D6C2A010079EF17 /* idol.h */,
+				04E848481D6C2A010079EF17 /* idol.m */,
+				04DA35BC1D6EDC6C00A793C8 /* family.h */,
+				04DA35BD1D6EDC6C00A793C8 /* family.m */,
 				04E8481D1D6C21DE0079EF17 /* Main.storyboard */,
 				04E848201D6C21DE0079EF17 /* Assets.xcassets */,
 				04E848221D6C21DE0079EF17 /* LaunchScreen.storyboard */,
@@ -244,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E848241D6C21DE0079EF17 /* LaunchScreen.storyboard in Resources */,
+				04DA35BB1D6ED85A00A793C8 /* idol.json in Resources */,
 				04E848211D6C21DE0079EF17 /* Assets.xcassets in Resources */,
 				04E8481F1D6C21DE0079EF17 /* Main.storyboard in Resources */,
 			);
@@ -271,7 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E8481C1D6C21DE0079EF17 /* ViewController.m in Sources */,
+				04E848491D6C2A010079EF17 /* idol.m in Sources */,
 				04E848191D6C21DE0079EF17 /* AppDelegate.m in Sources */,
+				04DA35BE1D6EDC6C00A793C8 /* family.m in Sources */,
+				04E8484C1D6C3B980079EF17 /* idol+height.m in Sources */,
 				04E848161D6C21DE0079EF17 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +520,7 @@
 				04E848401D6C21DE0079EF17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E848411D6C21DE0079EF17 /* Build configuration list for PBXNativeTarget "runtimeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +529,7 @@
 				04E848431D6C21DE0079EF17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04E848441D6C21DE0079EF17 /* Build configuration list for PBXNativeTarget "runtimeTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +538,7 @@
 				04E848461D6C21DE0079EF17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
